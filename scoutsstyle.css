@@ -1,0 +1,71 @@
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: transparent; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: grey; /* Add a hover color */
+}
+
+.active {
+  background-color: transparent; /* Add an active/current color */
+}
+
+body{
+  background-image: url("backscouts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  border: 1px solid black;
+  margin-top: 500px;
+  margin-bottom: 100px;
+  margin-right: 450px;
+  margin-left: 450px;
+  background-color: lightgrey;
+
+}
+
+.one{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.two{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.three{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.four{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.five{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;  
+}

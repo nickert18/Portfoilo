@@ -1,0 +1,127 @@
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: transparent; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: lightgreen; /* Add a hover color */
+}
+
+.active {
+  background-color: transparent; /* Add an active/current color */
+}
+body{
+  background-image: url("alb1.jpg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  text-shadow: 3px 2px black;
+  font-size: 35px; 
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.social-bar {
+  position: absolute;
+  
+ 
+}
+
+/* Style the icon bar links */
+.social-bar a {
+  display: block
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.social-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  margin-top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+}
+
+.instagram {
+  background: orange;
+  color: white;
+  border-radius: 25%;
+}
+
+.text {
+  border: 1px solid black;
+  margin-top: 250px;
+  margin-bottom: 150px;
+  margin-right: 450px;
+  margin-left: 450px;
+  background-color: green;
+}
+    
+.one{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.two{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.three{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.four{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.five{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;  
+}
+    
+iframe{
+   
+
+}
+    
+    
